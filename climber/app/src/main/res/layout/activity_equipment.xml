@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgimage"
+    tools:context=".equipment">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:text="遮陽帽"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="快乾頭巾"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="太陽眼鏡"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="手套"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="登山鞋/襪"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="登山褲"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="外套"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------身著------"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------裝備------"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="70dp"
+        android:checked="false"
+        android:text="背包"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="水壺"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="雨衣"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="午餐/行動糧食"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="塑膠袋"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="衛生紙/濕紙巾"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox12" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="10dp"
+        android:text="哨子"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox13" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="338dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="BTC"
+        android:text="檢查"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox14" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="BTC2"
+        android:text="結束"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

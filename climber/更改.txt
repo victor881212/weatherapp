@@ -1,0 +1,3 @@
+stings.xml 22個城市
+menu_main.xml
+

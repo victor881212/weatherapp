@@ -14,6 +14,13 @@
         android:theme="@style/Theme.Climber"
         tools:targetApi="31">
         <activity
+            android:name=".equipment"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

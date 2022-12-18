@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/victo/AndroidStudioProjects/weather app/weatherapp/climber/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/alvin/AndroidStudioProjects/climber/app/src/main/res/layout/activity_equipment.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/alvin/AndroidStudioProjects/climber/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/alvin/AndroidStudioProjects/climber/app/src/main/res/menu/menu_main.xml" value="0.264" />
       </map>
     </option>
   </component>
